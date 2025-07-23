@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Education Section</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f4f8;
+    }
+
+    section#education {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    #education h2 {
+      font-size: 2rem;
+      color: #1e3a8a; /* Dark blue */
+      margin-bottom: 1.5rem;
+      border-bottom: 2px solid #3b82f6;
+      padding-bottom: 0.5rem;
+    }
+
+    .education-entry {
+      padding: 1rem 1.5rem;
+      border-left: 4px solid #2563eb; /* Tailwind blue-600 */
+      margin-bottom: 1.5rem;
+      background-color: #f9fafb;
+      border-radius: 8px;
+    }
+
+    .education-entry h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.2rem;
+      color: #111827;
+    }
+
+    .education-entry p {
+      margin: 0.25rem 0;
+      color: #374151;
+    }
+
+    .edu-date {
+      font-style: italic;
+      color: #6b7280;
+    }
+
+    @media (max-width: 600px) {
+      section#education {
+        padding: 1.5rem;
+      }
+
+      #education h2 {
+        font-size: 1.5rem;
+      }
+
+      .education-entry h3 {
+        font-size: 1.05rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education-entry">
+      <h3>Bachelor of Technology (B.Tech), Electronics & Communication Engineering</h3>
+      <p><strong>Rajiv Gandhi Institute of Technology (RIT), Kottayam</strong></p>
+      <p>Affiliated to Mahatma Gandhi University, Kerala</p>
+      <p class="edu-date">2004 – 2008</p>
+    </div>
+  </section>
+
+</body>
+</html>
